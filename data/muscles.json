@@ -1,0 +1,53 @@
+{
+  "chest": {
+    "name": "Chest"
+  },
+  "lats": {
+    "name": "Lats"
+  },
+  "mid_back": {
+    "name": "Mid Back"
+  },
+  "traps": {
+    "name": "Traps"
+  },
+  "front_delts": {
+    "name": "Front Delts"
+  },
+  "side_delts": {
+    "name": "Side Delts"
+  },
+  "rear_delts": {
+    "name": "Rear Delts"
+  },
+  "biceps": {
+    "name": "Biceps"
+  },
+  "triceps": {
+    "name": "Triceps"
+  },
+  "forearms": {
+    "name": "Forearms"
+  },
+  "spinal_erectors": {
+    "name": "Spinal Erectors"
+  },
+  "quads": {
+    "name": "Quads"
+  },
+  "hamstrings": {
+    "name": "Hamstrings"
+  },
+  "glutes": {
+    "name": "Glutes"
+  },
+  "calves": {
+    "name": "Calves"
+  },
+  "abs": {
+    "name": "Abs"
+  },
+  "neck": {
+    "name": "Neck"
+  }
+}

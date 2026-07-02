@@ -1,0 +1,259 @@
+{
+  "date": "2026-07-02",
+  "session": 1,
+  "location": "planet_fitness",
+  "bodyweight": 184.3,
+  "calories": null,
+  "protein": null,
+  "recovery": null,
+  "notes": "First workout with supersets and extra volume, very difficult and tough towards the end",
+  "exercises": [
+    {
+      "id": "supinated_lat_pulldown",
+      "superset": "quad_extension",
+      "sets": [
+        {
+          "weight": 145,
+          "reps": 10
+        },
+        {
+          "weight": 145,
+          "reps": 10
+        },
+        {
+          "weight": 145,
+          "reps": 7
+        }
+      ]
+    },
+    {
+      "id": "quad_extension",
+      "superset": "supinated_lat_pulldown",
+      "sets": [
+        {
+          "weight": 150,
+          "reps": 10
+        },
+        {
+          "weight": 150,
+          "reps": 10
+        },
+        {
+          "weight": 150,
+          "reps": 12
+        }
+      ]
+    },
+    {
+      "id": "weighted_dip",
+      "superset": "back_extension",
+      "bodyweight": true,
+      "added_weight": 25,
+      "sets": [
+        {
+          "reps": 6
+        },
+        {
+          "reps": 6
+        },
+        {
+          "reps": 6
+        }
+      ]
+    },
+    {
+      "id": "back_extension",
+      "superset": "weighted_dip",
+      "bodyweight": true,
+      "added_weight": 30,
+      "sets": [
+        {
+          "reps": 15
+        },
+        {
+          "reps": 15
+        }
+      ]
+    },
+    {
+      "id": "t_bar_machine_row",
+      "superset": "seated_calf_raise",
+      "sets": [
+        {
+          "weight": 110,
+          "reps": 10
+        },
+        {
+          "weight": 110,
+          "reps": 10
+        },
+        {
+          "weight": 110,
+          "reps": 8
+        }
+      ]
+    },
+    {
+      "id": "seated_calf_raise",
+      "superset": "t_bar_machine_row",
+      "sets": [
+        {
+          "weight": 50,
+          "reps": 15
+        },
+        {
+          "weight": 50,
+          "reps": 15
+        },
+        {
+          "weight": 50,
+          "reps": 10
+        }
+      ]
+    },
+    {
+      "id": "hammer_strength_shoulder_press",
+      "superset": "hamstring_curl",
+      "sets": [
+        {
+          "weight": 80,
+          "reps": 10
+        },
+        {
+          "weight": 80,
+          "reps": 10
+        },
+        {
+          "weight": 80,
+          "reps": 6
+        }
+      ]
+    },
+    {
+      "id": "hamstring_curl",
+      "superset": "hammer_strength_shoulder_press",
+      "sets": [
+        {
+          "weight": 60,
+          "reps": 12
+        },
+        {
+          "weight": 60,
+          "reps": 9
+        }
+      ]
+    },
+    {
+      "id": "rope_curl",
+      "superset": "straight_bar_pushdown",
+      "sets": [
+        {
+          "weight": 40,
+          "reps": 15
+        },
+        {
+          "weight": 40,
+          "reps": 15
+        }
+      ]
+    },
+    {
+      "id": "straight_bar_pushdown",
+      "superset": "rope_curl",
+      "sets": [
+        {
+          "weight": 60,
+          "reps": 12
+        },
+        {
+          "weight": 60,
+          "reps": 12
+        },
+        {
+          "weight": 60,
+          "reps": 5
+        }
+      ]
+    },
+    {
+      "id": "pec_deck",
+      "superset": "reverse_pec_deck",
+      "sets": [
+        {
+          "weight": 100,
+          "reps": 12
+        },
+        {
+          "weight": 100,
+          "reps": 12
+        },
+        {
+          "weight": 100,
+          "reps": 12
+        }
+      ]
+    },
+    {
+      "id": "reverse_pec_deck",
+      "superset": "pec_deck",
+      "sets": [
+        {
+          "weight": 50,
+          "reps": 12
+        },
+        {
+          "weight": 50,
+          "reps": 12
+        },
+        {
+          "weight": 50,
+          "reps": 15
+        }
+      ]
+    },
+    {
+      "id": "smith_machine_shrug",
+      "sets": [
+        {
+          "weight": 135,
+          "reps": 12
+        },
+        {
+          "weight": 135,
+          "reps": 12
+        },
+        {
+          "weight": 135,
+          "reps": 12
+        }
+      ]
+    },
+    {
+      "id": "forearm_twist",
+      "superset": "decline_ab_crunch",
+      "sets": [
+        {
+          "weight": 10,
+          "reps": 2
+        },
+        {
+          "weight": 10,
+          "reps": 2
+        }
+      ]
+    },
+    {
+      "id": "decline_ab_crunch",
+      "superset": "forearm_twist",
+      "bodyweight": true,
+      "sets": [
+        {
+          "reps": 8
+        },
+        {
+          "reps": 8
+        }
+      ]
+    }
+  ]
+}

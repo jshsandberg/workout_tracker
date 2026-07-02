@@ -1,0 +1,26 @@
+{
+  "workout": {
+    "filename_format": "YYYY-MM-DD_###.json",
+    "session": {
+      "description": "Workout session number for a given day. Starts at 1. Use additional sessions only if multiple workouts are performed on the same date."
+    },
+    "location": {
+      "description": "Short stable ID for where the workout was performed, such as home or planet_fitness."
+    },
+    "superset": {
+      "description": "Optional exercise-level exercise ID for the movement this exercise was alternated with as a superset. For paired supersets, each exercise should reference the other exercise's ID."
+    }
+  },
+  "readiness": {
+    "Excellent": "Slept well, ate well, hydrated, low stress, minimal soreness, mentally and physically ready for an exceptional workout.",
+    "Good": "Normal day. No significant issues expected to affect performance.",
+    "Fair": "Some recovery factors are below normal (sleep, nutrition, soreness, stress, hydration, etc.). Performance may be slightly reduced.",
+    "Poor": "Significant recovery issues. Performance is expected to suffer."
+  },
+  "units": {
+    "weight": "lb",
+    "bodyweight": "lb",
+    "calories": "kcal",
+    "protein": "g"
+  }
+}

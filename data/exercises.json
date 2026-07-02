@@ -1,0 +1,226 @@
+{
+  "incline_bench": {
+    "name": "Incline Bench Press",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["chest"],
+      "secondary": ["front_delts", "triceps"]
+    }
+  },
+  "weighted_pullup": {
+    "name": "Weighted Pull-Up",
+    "uses_bodyweight": true,
+    "muscles": {
+      "primary": ["lats"],
+      "secondary": ["biceps", "mid_back"]
+    }
+  },
+  "high_bar_squat": {
+    "name": "High Bar Squat",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["quads"],
+      "secondary": ["glutes", "spinal_erectors"]
+    }
+  },
+  "chest_supported_db_row": {
+    "name": "Chest Supported DB Row",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["mid_back"],
+      "secondary": ["lats", "rear_delts", "biceps"]
+    }
+  },
+  "db_lateral_raise": {
+    "name": "DB Lateral Raise",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["side_delts"],
+      "secondary": ["traps"]
+    }
+  },
+  "barbell_curl": {
+    "name": "Barbell Curl",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["biceps"],
+      "secondary": ["forearms"]
+    }
+  },
+  "jm_press": {
+    "name": "JM Press",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["triceps"],
+      "secondary": ["chest"]
+    }
+  },
+  "standing_calf_raise": {
+    "name": "Standing Calf Raise",
+    "uses_bodyweight": true,
+    "muscles": {
+      "primary": ["calves"],
+      "secondary": []
+    }
+  },
+  "good_morning": {
+    "name": "Good Morning",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["spinal_erectors"],
+      "secondary": ["hamstrings", "glutes"]
+    }
+  },
+  "forearm_twist": {
+    "name": "Forearm Twist",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["forearms"],
+      "secondary": []
+    }
+  },
+  "hanging_knee_raise": {
+    "name": "Hanging Knee Raise",
+    "uses_bodyweight": true,
+    "muscles": {
+      "primary": ["abs"],
+      "secondary": ["hip_flexors"]
+    }
+  },
+  "neck_flexion_harness": {
+    "name": "Neck Flexion (Harness)",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["neck"],
+      "secondary": []
+    }
+  },
+  "neck_curl": {
+    "name": "Neck Curl",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["neck"],
+      "secondary": []
+    }
+  },
+  "barbell_shrug": {
+    "name": "Barbell Shrug",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["upper_traps"],
+      "secondary": []
+    }
+  },
+  "supinated_lat_pulldown": {
+    "name": "Supinated Lat Pulldown",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["lats"],
+      "secondary": ["biceps", "mid_back"]
+    }
+  },
+  "quad_extension": {
+    "name": "Quad Extension",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["quads"],
+      "secondary": []
+    }
+  },
+  "weighted_dip": {
+    "name": "Weighted Dip",
+    "uses_bodyweight": true,
+    "muscles": {
+      "primary": ["chest", "triceps"],
+      "secondary": ["front_delts"]
+    }
+  },
+  "back_extension": {
+    "name": "Back Extension",
+    "uses_bodyweight": true,
+    "muscles": {
+      "primary": ["spinal_erectors"],
+      "secondary": ["glutes", "hamstrings"]
+    }
+  },
+  "t_bar_machine_row": {
+    "name": "T-Bar Machine Row",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["mid_back"],
+      "secondary": ["lats", "rear_delts", "biceps"]
+    }
+  },
+  "seated_calf_raise": {
+    "name": "Seated Calf Raise",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["calves"],
+      "secondary": []
+    }
+  },
+  "hammer_strength_shoulder_press": {
+    "name": "Hammer Strength Shoulder Press",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["front_delts", "side_delts"],
+      "secondary": ["triceps"]
+    }
+  },
+  "hamstring_curl": {
+    "name": "Hamstring Curl",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["hamstrings"],
+      "secondary": []
+    }
+  },
+  "rope_curl": {
+    "name": "Rope Curl",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["biceps"],
+      "secondary": ["forearms"]
+    }
+  },
+  "straight_bar_pushdown": {
+    "name": "Straight Bar Pushdown",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["triceps"],
+      "secondary": []
+    }
+  },
+  "pec_deck": {
+    "name": "Pec Deck",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["chest"],
+      "secondary": ["front_delts"]
+    }
+  },
+  "reverse_pec_deck": {
+    "name": "Reverse Pec Deck",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["rear_delts"],
+      "secondary": ["mid_back"]
+    }
+  },
+  "smith_machine_shrug": {
+    "name": "Smith Machine Shrug",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["upper_traps"],
+      "secondary": []
+    }
+  },
+  "decline_ab_crunch": {
+    "name": "Decline Ab Crunch",
+    "uses_bodyweight": true,
+    "muscles": {
+      "primary": ["abs"],
+      "secondary": ["hip_flexors"]
+    }
+  }
+}
