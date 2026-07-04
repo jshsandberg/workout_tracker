@@ -45,7 +45,7 @@
       ]
     },
     {
-      "id": "weighted_dip",
+      "id": "dip",
       "superset": "back_extension",
       "bodyweight": true,
       "added_weight": 25,
@@ -63,7 +63,7 @@
     },
     {
       "id": "back_extension",
-      "superset": "weighted_dip",
+      "superset": "dip",
       "bodyweight": true,
       "added_weight": 30,
       "sets": [

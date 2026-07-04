@@ -7,8 +7,8 @@
       "secondary": ["front_delts", "triceps"]
     }
   },
-  "weighted_pullup": {
-    "name": "Weighted Pull-Up",
+  "pullup": {
+    "name": "Pull-Up",
     "uses_bodyweight": true,
     "muscles": {
       "primary": ["lats"],
@@ -36,7 +36,7 @@
     "uses_bodyweight": false,
     "muscles": {
       "primary": ["side_delts"],
-      "secondary": ["traps"]
+      "secondary": ["upper_traps"]
     }
   },
   "barbell_curl": {
@@ -127,8 +127,8 @@
       "secondary": []
     }
   },
-  "weighted_dip": {
-    "name": "Weighted Dip",
+  "dip": {
+    "name": "Dip",
     "uses_bodyweight": true,
     "muscles": {
       "primary": ["chest", "triceps"],
@@ -221,6 +221,86 @@
     "muscles": {
       "primary": ["abs"],
       "secondary": ["hip_flexors"]
+    }
+  },
+  "rack_pull": {
+    "name": "Rack Pull",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["spinal_erectors"],
+      "secondary": ["glutes", "hamstrings", "lats", "upper_traps"]
+    }
+  },
+  "ez_bar_curl": {
+    "name": "EZ Bar Curl",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["biceps"],
+      "secondary": ["forearms"]
+    }
+  },
+  "reverse_lunge": {
+    "name": "Reverse Lunge",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["quads", "glutes"],
+      "secondary": ["hamstrings"]
+    }
+  },
+  "seated_db_shoulder_press": {
+    "name": "Seated DB Shoulder Press",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["front_delts", "side_delts"],
+      "secondary": ["triceps"]
+    }
+  },
+  "close_grip_bench_press": {
+    "name": "Close Grip Bench Press",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["triceps"],
+      "secondary": ["chest", "front_delts"]
+    }
+  },
+  "barbell_row": {
+    "name": "Barbell Row",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["mid_back"],
+      "secondary": ["lats", "rear_delts", "biceps"]
+    }
+  },
+  "ez_bar_french_press": {
+    "name": "EZ Bar French Press",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["triceps"],
+      "secondary": ["front_delts", "forearms"]
+    }
+  },
+  "romanian_deadlift": {
+    "name": "Romanian Deadlift",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["hamstrings", "glutes"],
+      "secondary": ["spinal_erectors"]
+    }
+  },
+  "y_raise": {
+    "name": "Y Raise",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["rear_delts"],
+      "secondary": ["upper_traps", "side_delts"]
+    }
+  },
+  "pushup": {
+    "name": "Push-Up",
+    "uses_bodyweight": true,
+    "muscles": {
+      "primary": ["chest", "triceps"],
+      "secondary": ["front_delts"]
     }
   }
 }

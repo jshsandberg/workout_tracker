@@ -22,7 +22,7 @@
       ]
     },
     {
-      "id": "weighted_pullup",
+      "id": "pullup",
       "bodyweight": true,
       "added_weight": 10,
       "sets": [

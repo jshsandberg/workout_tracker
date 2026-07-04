@@ -1,0 +1,313 @@
+{
+    "date": "2026-07-04",
+    "session": 1,
+    "location": "home",
+    "bodyweight": null,
+    "calories": null,
+    "protein": null,
+    "recovery": null,
+    "notes": "Transcribed from workout notebook image. Location assumed home. Y raise second set reps were unclear in the image.",
+    "exercises": [
+        {
+            "id": "rack_pull",
+            "superset": "ez_bar_curl",
+            "sets": [
+                {
+                    "weight": 225,
+                    "reps": 5
+                },
+                {
+                    "weight": 225,
+                    "reps": 5
+                },
+                {
+                    "weight": 225,
+                    "reps": 5
+                },
+                {
+                    "weight": 225,
+                    "reps": 8
+                }
+            ]
+        },
+        {
+            "id": "ez_bar_curl",
+            "superset": "rack_pull",
+            "sets": [
+                {
+                    "weight": 50,
+                    "reps": 12
+                },
+                {
+                    "weight": 50,
+                    "reps": 12
+                },
+                {
+                    "weight": 50,
+                    "reps": 12
+                }
+            ]
+        },
+        {
+            "id": "reverse_lunge",
+            "sets": [
+                {
+                    "weight": 25,
+                    "reps": 10
+                },
+                {
+                    "weight": 25,
+                    "reps": 10
+                },
+                {
+                    "weight": 25,
+                    "reps": 10
+                }
+            ]
+        },
+        {
+            "id": "seated_db_shoulder_press",
+            "superset": "pullup",
+            "sets": [
+                {
+                    "weight": 40,
+                    "reps": 10
+                },
+                {
+                    "weight": 40,
+                    "reps": 10
+                },
+                {
+                    "weight": 40,
+                    "reps": 7
+                }
+            ]
+        },
+        {
+            "id": "pullup",
+            "superset": "seated_db_shoulder_press",
+            "bodyweight": true,
+            "added_weight": 0,
+            "sets": [
+                {
+                    "reps": 6
+                },
+                {
+                    "reps": 6
+                },
+                {
+                    "reps": 6
+                },
+                {
+                    "reps": 7
+                }
+            ]
+        },
+        {
+            "id": "close_grip_bench_press",
+            "sets": [
+                {
+                    "weight": 135,
+                    "reps": 12
+                },
+                {
+                    "weight": 135,
+                    "reps": 12
+                },
+                {
+                    "weight": 135,
+                    "reps": 10
+                }
+            ]
+        },
+        {
+            "id": "barbell_row",
+            "sets": [
+                {
+                    "weight": 135,
+                    "reps": 8
+                },
+                {
+                    "weight": 135,
+                    "reps": 8
+                },
+                {
+                    "weight": 135,
+                    "reps": 8
+                }
+            ]
+        },
+        {
+            "id": "ez_bar_french_press",
+            "superset": "romanian_deadlift",
+            "sets": [
+                {
+                    "weight": 50,
+                    "reps": 12
+                },
+                {
+                    "weight": 50,
+                    "reps": 12
+                },
+                {
+                    "weight": 50,
+                    "reps": 7
+                }
+            ]
+        },
+        {
+            "id": "romanian_deadlift",
+            "superset": "ez_bar_french_press",
+            "sets": [
+                {
+                    "weight": 135,
+                    "reps": 8
+                },
+                {
+                    "weight": 135,
+                    "reps": 8
+                }
+            ]
+        },
+        {
+            "id": "y_raise",
+            "superset": "pushup",
+            "sets": [
+                {
+                    "weight": 15,
+                    "reps": 8
+                },
+                {
+                    "weight": 10,
+                    "reps": 10
+                }
+            ]
+        },
+        {
+            "id": "pushup",
+            "superset": "y_raise",
+            "bodyweight": true,
+            "added_weight": 0,
+            "sets": [
+                {
+                    "reps": 20
+                },
+                {
+                    "reps": 20
+                }
+            ]
+        },
+        {
+            "id": "forearm_twist",
+            "superset": [
+                "barbell_shrug",
+                "hanging_knee_raise"
+            ],
+            "sets": [
+                {
+                    "weight": 15,
+                    "reps": 2
+                },
+                {
+                    "weight": 15,
+                    "reps": 2
+                },
+                {
+                    "weight": 15,
+                    "reps": 2
+                }
+            ]
+        },
+        {
+            "id": "hanging_knee_raise",
+            "superset": [
+                "barbell_shrug",
+                "forearm_twist"
+            ],
+            "bodyweight": true,
+            "sets": [
+                {
+                    "reps": 8
+                },
+                {
+                    "reps": 8
+                },
+                {
+                    "reps": 8
+                }
+            ]
+        },
+        {
+            "id": "barbell_shrug",
+            "superset": [
+                "forearm_twist",
+                "hanging_knee_raise"
+            ],
+            "sets": [
+                {
+                    "weight": 135,
+                    "reps": 12
+                },
+                {
+                    "weight": 135,
+                    "reps": 12
+                },
+                {
+                    "weight": 135,
+                    "reps": 12
+                }
+            ]
+        },
+        {
+            "id": "neck_curl",
+            "superset": [
+                "standing_calf_raise",
+                "neck_flexion_harness"
+            ],
+            "sets": [
+                {
+                    "weight": 10,
+                    "reps": 15
+                },
+                {
+                    "weight": 10,
+                    "reps": 15
+                }
+            ]
+        },
+        {
+            "id": "neck_flexion_harness",
+            "superset": [
+                "neck_curl",
+                "standing_calf_raise"
+            ],
+            "sets": [
+                {
+                    "weight": 10,
+                    "reps": 15
+                },
+                {
+                    "weight": 10,
+                    "reps": 15
+                }
+            ]
+        },
+        {
+            "id": "standing_calf_raise",
+            "superset": [
+                "neck_curl",
+                "neck_flexion_harness"
+            ],
+            "bodyweight": true,
+            "added_weight": 0,
+            "sets": [
+                {
+                    "reps": 30
+                },
+                {
+                    "reps": 25
+                }
+            ]
+        }
+    ]
+}

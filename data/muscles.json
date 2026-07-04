@@ -8,8 +8,8 @@
   "mid_back": {
     "name": "Mid Back"
   },
-  "traps": {
-    "name": "Traps"
+  "upper_traps": {
+    "name": "Upper Traps"
   },
   "front_delts": {
     "name": "Front Delts"
@@ -46,6 +46,9 @@
   },
   "abs": {
     "name": "Abs"
+  },
+  "hip_flexors": {
+    "name": "Hip Flexors"
   },
   "neck": {
     "name": "Neck"
