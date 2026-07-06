@@ -259,8 +259,8 @@
     "name": "Close Grip Bench Press",
     "uses_bodyweight": false,
     "muscles": {
-      "primary": ["triceps"],
-      "secondary": ["chest", "front_delts"]
+      "primary": ["chest"],
+      "secondary": ["triceps", "front_delts"]
     }
   },
   "barbell_row": {
