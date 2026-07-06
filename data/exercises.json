@@ -295,6 +295,22 @@
       "secondary": ["upper_traps", "side_delts"]
     }
   },
+  "heel_elevated_bulgarian_split_squat": {
+    "name": "Heel-Elevated Bulgarian Split Squat",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["quads", "glutes"],
+      "secondary": ["hamstrings"]
+    }
+  },
+  "db_reverse_fly": {
+    "name": "DB Reverse Fly",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["rear_delts"],
+      "secondary": ["mid_back", "upper_traps"]
+    }
+  },
   "pushup": {
     "name": "Push-Up",
     "uses_bodyweight": true,
