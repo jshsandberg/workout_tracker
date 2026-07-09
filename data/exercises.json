@@ -347,8 +347,8 @@
     "name": "Jefferson Curl",
     "uses_bodyweight": false,
     "muscles": {
-      "primary": ["spinal_erectors", "hamstrings"],
-      "secondary": ["glutes"]
+      "primary": ["spinal_erectors"],
+      "secondary": ["glutes", "hamstrings"]
     }
   },
   "v_grip_pushdown": {
