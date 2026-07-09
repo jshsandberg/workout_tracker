@@ -318,5 +318,77 @@
       "primary": ["chest", "triceps"],
       "secondary": ["front_delts"]
     }
+  },
+  "bench_press": {
+    "name": "Bench Press",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["chest"],
+      "secondary": ["front_delts", "triceps"]
+    }
+  },
+  "smith_behind_the_neck_press": {
+    "name": "Smith Behind-the-Neck Press",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["side_delts", "front_delts"],
+      "secondary": ["triceps", "upper_traps"]
+    }
+  },
+  "band_pushdown": {
+    "name": "Band Pushdown",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["triceps"],
+      "secondary": []
+    }
+  },
+  "jefferson_curl": {
+    "name": "Jefferson Curl",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["spinal_erectors", "hamstrings"],
+      "secondary": ["glutes"]
+    }
+  },
+  "v_grip_pushdown": {
+    "name": "V-Grip Pushdown",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["triceps"],
+      "secondary": []
+    }
+  },
+  "db_pullover": {
+    "name": "DB Pullover",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["lats"],
+      "secondary": ["chest", "triceps"]
+    }
+  },
+  "hammer_bar_curl": {
+    "name": "Hammer Bar Curl",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["biceps"],
+      "secondary": ["forearms"]
+    }
+  },
+  "military_press": {
+    "name": "Military Press",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["front_delts", "side_delts"],
+      "secondary": ["triceps", "upper_traps"]
+    }
+  },
+  "chinup": {
+    "name": "Chin-Up",
+    "uses_bodyweight": true,
+    "muscles": {
+      "primary": ["lats", "biceps"],
+      "secondary": ["mid_back"]
+    }
   }
 }
