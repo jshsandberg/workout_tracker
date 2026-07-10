@@ -1,0 +1,265 @@
+{
+  "date": "2026-07-10",
+  "session": 1,
+  "location": "planet_fitness",
+  "bodyweight": 188.2,
+  "calories": null,
+  "protein": null,
+  "recovery": null,
+  "notes": null,
+  "exercises": [
+    {
+      "id": "quad_extension",
+      "sets": [
+        {
+          "weight": 130,
+          "reps": 12
+        },
+        {
+          "weight": 130,
+          "reps": 12
+        },
+        {
+          "weight": 130,
+          "reps": 12
+        },
+        {
+          "weight": 130,
+          "reps": 12
+        }
+      ]
+    },
+    {
+      "id": "hack_squat",
+      "sets": [
+        {
+          "weight": 45,
+          "reps": 4
+        },
+        {
+          "weight": 45,
+          "reps": 4
+        },
+        {
+          "weight": 45,
+          "reps": 3
+        }
+      ]
+    },
+    {
+      "id": "db_pullover",
+      "superset": "seated_calf_raise",
+      "sets": [
+        {
+          "weight": 25,
+          "reps": 10
+        },
+        {
+          "weight": 25,
+          "reps": 10
+        },
+        {
+          "weight": 25,
+          "reps": 10
+        },
+        {
+          "weight": 25,
+          "reps": 10
+        }
+      ]
+    },
+    {
+      "id": "seated_calf_raise",
+      "superset": "db_pullover",
+      "sets": [
+        {
+          "weight": 50,
+          "reps": 15
+        },
+        {
+          "weight": 50,
+          "reps": 15
+        },
+        {
+          "weight": 50,
+          "reps": 15
+        }
+      ]
+    },
+    {
+      "id": "hamstring_curl",
+      "sets": [
+        {
+          "weight": 60,
+          "reps": 12
+        },
+        {
+          "weight": 60,
+          "reps": 12
+        },
+        {
+          "weight": 60,
+          "reps": 12
+        }
+      ]
+    },
+    {
+      "id": "db_romanian_deadlift",
+      "sets": [
+        {
+          "weight": 70,
+          "reps": 8
+        },
+        {
+          "weight": 70,
+          "reps": 8
+        },
+        {
+          "weight": 70,
+          "reps": 8
+        }
+      ]
+    },
+    {
+      "id": "triceps_preacher_pushdown",
+      "sets": [
+        {
+          "weight": 55,
+          "reps": 20
+        },
+        {
+          "weight": 55,
+          "reps": 20
+        },
+        {
+          "weight": 55,
+          "reps": 20
+        }
+      ]
+    },
+    {
+      "id": "supinated_lat_pulldown",
+      "sets": [
+        {
+          "weight": 145,
+          "reps": 10
+        },
+        {
+          "weight": 145,
+          "reps": 10
+        },
+        {
+          "weight": 145,
+          "reps": 8
+        }
+      ]
+    },
+    {
+      "id": "banded_face_pull",
+      "sets": [
+        {
+          "reps": 50
+        }
+      ]
+    },
+    {
+      "id": "adductor_machine",
+      "superset": "decline_ab_crunch",
+      "sets": [
+        {
+          "weight": 120,
+          "reps": 12
+        },
+        {
+          "weight": 120,
+          "reps": 8
+        }
+      ]
+    },
+    {
+      "id": "decline_ab_crunch",
+      "superset": "adductor_machine",
+      "bodyweight": true,
+      "added_weight": 0,
+      "sets": [
+        {
+          "reps": 12
+        },
+        {
+          "reps": 12
+        },
+        {
+          "reps": 12
+        }
+      ]
+    },
+    {
+      "id": "farmer_walk",
+      "sets": [
+        {
+          "weight": 75,
+          "reps": 40
+        },
+        {
+          "weight": 75,
+          "reps": 50
+        },
+        {
+          "weight": 75,
+          "reps": 60
+        }
+      ]
+    },
+    {
+      "id": "pec_deck",
+      "sets": [
+        {
+          "weight": 120,
+          "reps": 12
+        },
+        {
+          "weight": 120,
+          "reps": 12
+        },
+        {
+          "weight": 120,
+          "reps": 10
+        }
+      ]
+    },
+    {
+      "id": "forearm_twist",
+      "sets": [
+        {
+          "weight": 20,
+          "reps": 2
+        },
+        {
+          "weight": 20,
+          "reps": 2
+        },
+        {
+          "weight": 20,
+          "reps": 2
+        }
+      ]
+    },
+    {
+      "id": "standing_calf_machine",
+      "sets": [
+        {
+          "weight": 140,
+          "reps": 10
+        },
+        {
+          "weight": 140,
+          "reps": 8
+        },
+        {
+          "weight": 140,
+          "reps": 6
+        }
+      ]
+    }
+  ]
+}

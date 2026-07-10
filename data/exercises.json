@@ -390,5 +390,61 @@
       "primary": ["lats", "biceps"],
       "secondary": ["mid_back"]
     }
+  },
+  "hack_squat": {
+    "name": "Hack Squat",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["quads"],
+      "secondary": ["glutes", "hamstrings"]
+    }
+  },
+  "db_romanian_deadlift": {
+    "name": "DB Romanian Deadlift",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["hamstrings", "glutes"],
+      "secondary": ["spinal_erectors"]
+    }
+  },
+  "triceps_preacher_pushdown": {
+    "name": "Triceps Preacher Pushdown",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["triceps"],
+      "secondary": []
+    }
+  },
+  "banded_face_pull": {
+    "name": "Banded Face Pull",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["rear_delts"],
+      "secondary": ["upper_traps", "mid_back"]
+    }
+  },
+  "adductor_machine": {
+    "name": "Adductor Machine",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["adductors"],
+      "secondary": []
+    }
+  },
+  "farmer_walk": {
+    "name": "Farmer Walk",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["forearms", "upper_traps"],
+      "secondary": ["abs", "glutes"]
+    }
+  },
+  "standing_calf_machine": {
+    "name": "Standing Calf Machine",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["calves"],
+      "secondary": []
+    }
   }
 }

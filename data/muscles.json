@@ -50,6 +50,9 @@
   "hip_flexors": {
     "name": "Hip Flexors"
   },
+  "adductors": {
+    "name": "Adductors"
+  },
   "neck": {
     "name": "Neck"
   }
