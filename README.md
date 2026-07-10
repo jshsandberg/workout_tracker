@@ -72,6 +72,17 @@ Workout Template
 }
 ```
 
+Exercise History Script
+
+Use `scripts/exercise_history.sh` to look up recent history for an exercise by
+ID or display name. It prints JSON and returns the 10 most recent matching
+exercise entries by default.
+
+```bash
+scripts/exercise_history.sh bench
+scripts/exercise_history.sh --limit 5 "db pullover"
+```
+
 Project Log
 
 - 2026-07-02: Added workout location tracking, added superset tracking by paired exercise ID, created today's `planet_fitness` workout log, and added the exercises from today's workout image using existing exercise IDs.
