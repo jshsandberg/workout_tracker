@@ -77,9 +77,9 @@
     {
       "id": "ez_bar_curl",
       "sets": [
-        { "weight": 70, "reps": 10 },
-        { "weight": 70, "reps": 10 },
-        { "weight": 70, "reps": 10 }
+        { "weight": 60, "reps": 10 },
+        { "weight": 60, "reps": 10 },
+        { "weight": 60, "reps": 10 }
       ]
     },
     {
