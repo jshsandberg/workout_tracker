@@ -24,12 +24,13 @@
     {
       "id": "pullup",
       "bodyweight": true,
-      "added_weight": 10,
       "sets": [
         {
+          "weight": 10,
           "reps": 8
         },
         {
+          "weight": 10,
           "reps": 4
         }
       ]

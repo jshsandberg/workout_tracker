@@ -45,15 +45,17 @@
     {
       "id": "pullup",
       "bodyweight": true,
-      "added_weight": 0,
       "sets": [
         {
+          "weight": 0,
           "reps": 7
         },
         {
+          "weight": 0,
           "reps": 7
         },
         {
+          "weight": 0,
           "reps": 7
         }
       ]

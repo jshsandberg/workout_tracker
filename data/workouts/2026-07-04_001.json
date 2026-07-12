@@ -87,18 +87,21 @@
             "id": "pullup",
             "superset": "seated_db_shoulder_press",
             "bodyweight": true,
-            "added_weight": 0,
             "sets": [
                 {
+                    "weight": 0,
                     "reps": 6
                 },
                 {
+                    "weight": 0,
                     "reps": 6
                 },
                 {
+                    "weight": 0,
                     "reps": 6
                 },
                 {
+                    "weight": 0,
                     "reps": 7
                 }
             ]

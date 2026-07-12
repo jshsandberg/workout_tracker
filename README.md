@@ -5,7 +5,7 @@ Exercise Naming Rules
 - If no variation is specified, assume the standard version.
 
 Examples:
-- pullup = pronated; use `added_weight` for bodyweight, weighted, or assisted loading
+- pullup = pronated; record added or assisted load as `weight` on every set
 - weighted_chinup = supinated
 - weighted_neutral_pullup = neutral grip
 - dip = standard dip; use `added_weight` for bodyweight, weighted, or assisted loading
@@ -39,6 +39,7 @@ Adding A New Workout
    - After adding new exercises, report the exact exercise IDs, display names, bodyweight setting, primary muscles, and secondary muscles so they can be confirmed.
    - If a movement is meaningfully different for loading or progression, add a new stable ID instead of reusing a close-but-different exercise.
    - For bodyweight movements, set `bodyweight` to `true` and use `added_weight` for the external load: `0` for bodyweight-only, `10` for 10 lb added, and so on.
+   - Exception: for all pull-up and chin-up variations, omit exercise-level `added_weight` and include `weight` on every set because loading may change between sets. Use `0` for bodyweight-only, a positive value for added weight, and a negative value for assistance.
    - For supersets, set each exercise's `superset` value to the paired exercise ID.
 4. Add each set with the reps performed.
    - Include `weight` for loaded movements.
