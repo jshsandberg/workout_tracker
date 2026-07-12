@@ -84,6 +84,20 @@ scripts/exercise_history.sh bench
 scripts/exercise_history.sh --limit 5 "db pullover"
 ```
 
+Muscle Volume Script
+
+Use `scripts/muscle_volume.sh` to total completed working sets by muscle over a
+rolling timeline. The interactive mode asks for a period and whether secondary
+muscle volume should appear in its own column.
+
+```bash
+scripts/muscle_volume.sh
+```
+
+Each recorded set with more than zero reps counts once toward every primary
+muscle assigned to the exercise. Secondary sets use the same rule but are kept
+separate from primary volume.
+
 Project Log
 
 - 2026-07-02: Added workout location tracking, added superset tracking by paired exercise ID, created today's `planet_fitness` workout log, and added the exercises from today's workout image using existing exercise IDs.
