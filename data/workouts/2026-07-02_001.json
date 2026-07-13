@@ -48,15 +48,17 @@
       "id": "dip",
       "superset": "back_extension",
       "bodyweight": true,
-      "added_weight": 25,
       "sets": [
         {
+          "weight": 25,
           "reps": 6
         },
         {
+          "weight": 25,
           "reps": 6
         },
         {
+          "weight": 25,
           "reps": 6
         }
       ]

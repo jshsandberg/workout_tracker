@@ -2,7 +2,7 @@
   "date": "2026-07-08",
   "session": 1,
   "location": "work",
-  "bodyweight": 187,
+  "bodyweight": 187.3,
   "calories": null,
   "protein": null,
   "recovery": null,
@@ -131,6 +131,10 @@
       "id": "hammer_bar_curl",
       "superset": "db_pullover",
       "sets": [
+        {
+          "weight": 50,
+          "reps": 8
+        },
         {
           "weight": 50,
           "reps": 8
