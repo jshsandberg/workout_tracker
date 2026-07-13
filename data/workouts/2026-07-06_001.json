@@ -44,7 +44,6 @@
     },
     {
       "id": "pullup",
-      "bodyweight": true,
       "sets": [
         {
           "weight": 0,
@@ -168,16 +167,17 @@
         "forearm_twist",
         "standing_calf_raise"
       ],
-      "bodyweight": true,
-      "added_weight": 0,
       "sets": [
         {
+          "weight": 0,
           "reps": 10
         },
         {
+          "weight": 0,
           "reps": 10
         },
         {
+          "weight": 0,
           "reps": 10
         }
       ]
@@ -209,16 +209,17 @@
         "hanging_knee_raise",
         "forearm_twist"
       ],
-      "bodyweight": true,
-      "added_weight": 0,
       "sets": [
         {
+          "weight": 0,
           "reps": 30
         },
         {
+          "weight": 0,
           "reps": 30
         },
         {
+          "weight": 0,
           "reps": 25
         }
       ]

@@ -166,7 +166,6 @@
     {
       "id": "chinup",
       "superset": "military_press",
-      "bodyweight": true,
       "sets": [
         {
           "weight": 0,

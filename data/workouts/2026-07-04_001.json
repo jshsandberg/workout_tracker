@@ -86,7 +86,6 @@
         {
             "id": "pullup",
             "superset": "seated_db_shoulder_press",
-            "bodyweight": true,
             "sets": [
                 {
                     "weight": 0,
@@ -189,13 +188,13 @@
         {
             "id": "pushup",
             "superset": "y_raise",
-            "bodyweight": true,
-            "added_weight": 0,
             "sets": [
                 {
+                    "weight": 0,
                     "reps": 20
                 },
                 {
+                    "weight": 0,
                     "reps": 20
                 }
             ]
@@ -227,15 +226,17 @@
                 "barbell_shrug",
                 "forearm_twist"
             ],
-            "bodyweight": true,
             "sets": [
                 {
+                    "weight": 0,
                     "reps": 8
                 },
                 {
+                    "weight": 0,
                     "reps": 8
                 },
                 {
+                    "weight": 0,
                     "reps": 8
                 }
             ]
@@ -301,13 +302,13 @@
                 "neck_curl",
                 "neck_flexion_harness"
             ],
-            "bodyweight": true,
-            "added_weight": 0,
             "sets": [
                 {
+                    "weight": 0,
                     "reps": 30
                 },
                 {
+                    "weight": 0,
                     "reps": 25
                 }
             ]

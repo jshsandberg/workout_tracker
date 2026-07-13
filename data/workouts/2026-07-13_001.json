@@ -1,0 +1,128 @@
+{
+  "date": "2026-07-13",
+  "session": 1,
+  "location": "planet_fitness",
+  "bodyweight": 191,
+  "calories": null,
+  "protein": null,
+  "recovery": null,
+  "notes": "Heavy Progression Day. Dumbbell loads are recorded per dumbbell; hack squat load is per side; Kroc row reps are per arm.",
+  "exercises": [
+    {
+      "id": "flat_db_bench",
+      "sets": [
+        { "weight": 75, "reps": 10 },
+        { "weight": 75, "reps": 10 },
+        { "weight": 75, "reps": 10 }
+      ]
+    },
+    {
+      "id": "hack_squat",
+      "sets": [
+        { "weight": 45, "reps": 6 },
+        { "weight": 45, "reps": 6 },
+        { "weight": 45, "reps": 6 }
+      ]
+    },
+    {
+      "id": "dip",
+      "sets": [
+        { "weight": 25, "reps": 7 },
+        { "weight": 25, "reps": 7 },
+        { "weight": 25, "reps": 7 }
+      ]
+    },
+    {
+      "id": "hamstring_curl",
+      "sets": [
+        { "weight": 70, "reps": 10 },
+        { "weight": 70, "reps": 10 },
+        { "weight": 70, "reps": 10 },
+        { "weight": 70, "reps": 10 }
+      ]
+    },
+    {
+      "id": "two_db_bent_over_row",
+      "sets": [
+        { "weight": 70, "reps": 8 },
+        { "weight": 70, "reps": 8 },
+        { "weight": 70, "reps": 8 }
+      ]
+    },
+    {
+      "id": "kroc_row",
+      "sets": [
+        { "weight": 75, "reps": 20, "notes": "20 reps per arm" }
+      ]
+    },
+    {
+      "id": "seated_db_shoulder_press",
+      "sets": [
+        { "weight": 40, "reps": 12 },
+        { "weight": 40, "reps": 12 },
+        { "weight": 40, "reps": 12 }
+      ]
+    },
+    {
+      "id": "reverse_pec_deck",
+      "sets": [
+        { "weight": 50, "reps": 15 },
+        { "weight": 50, "reps": 15 },
+        { "weight": 50, "reps": 15 },
+        { "weight": 50, "reps": 15 },
+        { "weight": 50, "reps": 15 }
+      ]
+    },
+    {
+      "id": "jefferson_curl",
+      "sets": [
+        { "weight": 95, "reps": 7 },
+        { "weight": 95, "reps": 7 },
+        { "weight": 95, "reps": 7 }
+      ]
+    },
+    {
+      "id": "triceps_preacher_pushdown",
+      "sets": [
+        { "weight": 70, "reps": 12 },
+        { "weight": 70, "reps": 12 },
+        { "weight": 70, "reps": 12 }
+      ]
+    },
+    {
+      "id": "hammer_curl",
+      "sets": [
+        { "weight": 35, "reps": 10 },
+        { "weight": 35, "reps": 10 },
+        { "weight": 35, "reps": 10 },
+        { "weight": 35, "reps": 10 }
+      ]
+    },
+    {
+      "id": "standing_calf_machine",
+      "sets": [
+        { "weight": 140, "reps": 10 },
+        { "weight": 140, "reps": 10 },
+        { "weight": 140, "reps": 10 },
+        { "weight": 140, "reps": 10 }
+      ]
+    },
+    {
+      "id": "decline_ab_crunch",
+      "sets": [
+        { "weight": 0, "reps": 15 },
+        { "weight": 0, "reps": 15 },
+        { "weight": 0, "reps": 15 }
+      ]
+    },
+    {
+      "id": "forearm_twist",
+      "sets": [
+        { "weight": 20, "reps": 2 },
+        { "weight": 20, "reps": 2 },
+        { "weight": 20, "reps": 2 },
+        { "weight": 20, "reps": 2 }
+      ]
+    }
+  ]
+}

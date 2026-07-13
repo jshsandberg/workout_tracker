@@ -23,7 +23,6 @@
     },
     {
       "id": "pullup",
-      "bodyweight": true,
       "sets": [
         {
           "weight": 10,
@@ -102,13 +101,13 @@
     },
     {
       "id": "standing_calf_raise",
-      "bodyweight": true,
-      "added_weight": 0,
       "sets": [
         {
+          "weight": 0,
           "reps": 30
         },
         {
+          "weight": 0,
           "reps": 20
         }
       ]
@@ -141,12 +140,13 @@
     },
     {
       "id": "hanging_knee_raise",
-      "bodyweight": true,
       "sets": [
         {
+          "weight": 0,
           "reps": 10
         },
         {
+          "weight": 0,
           "reps": 10
         }
       ]

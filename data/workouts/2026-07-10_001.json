@@ -179,16 +179,17 @@
     {
       "id": "decline_ab_crunch",
       "superset": "adductor_machine",
-      "bodyweight": true,
-      "added_weight": 0,
       "sets": [
         {
+          "weight": 0,
           "reps": 12
         },
         {
+          "weight": 0,
           "reps": 12
         },
         {
+          "weight": 0,
           "reps": 12
         }
       ]

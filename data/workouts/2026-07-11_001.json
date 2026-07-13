@@ -16,7 +16,6 @@
     },
     {
       "id": "pullup",
-      "bodyweight": true,
       "sets": [
         { "weight": 15, "reps": 5 },
         { "weight": 15, "reps": 5 },
@@ -85,12 +84,10 @@
     {
       "id": "standing_calf_raise",
       "superset": ["neck_flexion_harness", "forearm_twist"],
-      "bodyweight": true,
-      "added_weight": 0,
       "sets": [
-        { "reps": 30 },
-        { "reps": 30 },
-        { "reps": 30 }
+        { "weight": 0, "reps": 30 },
+        { "weight": 0, "reps": 30 },
+        { "weight": 0, "reps": 30 }
       ]
     },
     {

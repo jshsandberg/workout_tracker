@@ -47,7 +47,6 @@
     {
       "id": "dip",
       "superset": "back_extension",
-      "bodyweight": true,
       "sets": [
         {
           "weight": 25,
@@ -66,13 +65,13 @@
     {
       "id": "back_extension",
       "superset": "dip",
-      "bodyweight": true,
-      "added_weight": 30,
       "sets": [
         {
+          "weight": 30,
           "reps": 15
         },
         {
+          "weight": 30,
           "reps": 15
         }
       ]
@@ -247,12 +246,13 @@
     {
       "id": "decline_ab_crunch",
       "superset": "forearm_twist",
-      "bodyweight": true,
       "sets": [
         {
+          "weight": 0,
           "reps": 8
         },
         {
+          "weight": 0,
           "reps": 8
         }
       ]
