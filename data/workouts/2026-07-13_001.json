@@ -13,7 +13,7 @@
       "sets": [
         { "weight": 75, "reps": 10 },
         { "weight": 75, "reps": 10 },
-        { "weight": 75, "reps": 10 }
+        { "weight": 75, "reps": 6 }
       ]
     },
     {
@@ -29,7 +29,7 @@
       "sets": [
         { "weight": 25, "reps": 7 },
         { "weight": 25, "reps": 7 },
-        { "weight": 25, "reps": 7 }
+        { "weight": 25, "reps": 8 }
       ]
     },
     {
@@ -38,15 +38,16 @@
         { "weight": 70, "reps": 10 },
         { "weight": 70, "reps": 10 },
         { "weight": 70, "reps": 10 },
-        { "weight": 70, "reps": 10 }
+        { "weight": 70, "reps": 12 }
       ]
     },
     {
       "id": "two_db_bent_over_row",
       "sets": [
-        { "weight": 70, "reps": 8 },
-        { "weight": 70, "reps": 8 },
-        { "weight": 70, "reps": 8 }
+        { "weight": 65, "reps": 8 },
+        { "weight": 65, "reps": 8 },
+        { "weight": 65, "reps": 8 },
+        { "weight": 65, "reps": 8 }
       ]
     },
     {
@@ -58,9 +59,9 @@
     {
       "id": "seated_db_shoulder_press",
       "sets": [
-        { "weight": 40, "reps": 12 },
-        { "weight": 40, "reps": 12 },
-        { "weight": 40, "reps": 12 }
+        { "weight": 45, "reps": 10 },
+        { "weight": 50, "reps": 10 },
+        { "weight": 55, "reps": 7 }
       ]
     },
     {
@@ -76,17 +77,17 @@
     {
       "id": "jefferson_curl",
       "sets": [
-        { "weight": 95, "reps": 7 },
-        { "weight": 95, "reps": 7 },
-        { "weight": 95, "reps": 7 }
+        { "weight": 90, "reps": 6 },
+        { "weight": 90, "reps": 6 },
+        { "weight": 90, "reps": 6 }
       ]
     },
     {
       "id": "triceps_preacher_pushdown",
       "sets": [
-        { "weight": 70, "reps": 12 },
-        { "weight": 70, "reps": 12 },
-        { "weight": 70, "reps": 12 }
+        { "weight": 57.5, "reps": 20 },
+        { "weight": 57.5, "reps": 20 },
+        { "weight": 57.5, "reps": 20 }
       ]
     },
     {
@@ -104,7 +105,7 @@
         { "weight": 140, "reps": 10 },
         { "weight": 140, "reps": 10 },
         { "weight": 140, "reps": 10 },
-        { "weight": 140, "reps": 10 }
+        { "weight": 140, "reps": 8 }
       ]
     },
     {
@@ -112,7 +113,8 @@
       "sets": [
         { "weight": 0, "reps": 15 },
         { "weight": 0, "reps": 15 },
-        { "weight": 0, "reps": 15 }
+        { "weight": 0, "reps": 15 },
+        { "weight": 0, "reps": 6 }
       ]
     },
     {
