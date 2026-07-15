@@ -9,6 +9,7 @@ Examples:
 - weighted_chinup = supinated
 - weighted_neutral_pullup = neutral grip
 - dip = standard dip; record added or assisted load as `weight` on every set
+- decline_ab_crunch = record added load as `weight` on every set; use `0` for bodyweight
 - incline_bench = barbell
 - chest_supported_db_row = dumbbells
 - barbell_shrug = performed with straps
@@ -36,14 +37,17 @@ Adding A New Workout
    - Use an existing exercise ID from `data/exercises.json` whenever possible.
    - If an exercise does not exist in `data/exercises.json`, add it there before logging it in the workout.
    - When adding a new exercise, include `name`, `uses_bodyweight`, and `muscles.primary` / `muscles.secondary`.
+   - Set `volume_mode` when the default weight × reps calculation is not appropriate, especially for bodyweight exercises.
+   - Use `volume_mode: "ignore"` for isometric holds, carries, or any movement that should contribute neither volume nor sets to the muscle trend report.
+   - Set `load_multiplier` when the logged load represents one side or one dumbbell but both sides contribute to the completed set. For example, use `2` for two-dumbbell rows logged with per-dumbbell weight.
    - After adding new exercises, report the exact exercise IDs, display names, bodyweight setting, primary muscles, and secondary muscles so they can be confirmed.
    - If a movement is meaningfully different for loading or progression, add a new stable ID instead of reusing a close-but-different exercise.
-   - For bodyweight movements, set `bodyweight` to `true` and use `added_weight` for the external load: `0` for bodyweight-only, `10` for 10 lb added, and so on.
-   - Exception: for all pull-up, chin-up, and dip variations, omit exercise-level `added_weight` and include `weight` on every set because loading may change between sets. Use `0` for bodyweight-only, a positive value for added weight, and a negative value for assistance.
+   - `uses_bodyweight` comes from `data/exercises.json`; do not duplicate it in workout exercise entries. Include `weight` on every bodyweight set: `0` for bodyweight-only, a positive value for added load, and a negative value for assistance.
+   - Never use exercise-level `added_weight`; bodyweight loading belongs on each set even when every set uses the same load.
    - For supersets, set each exercise's `superset` value to the paired exercise ID.
 4. Add each set with the reps performed.
    - Include `weight` for loaded movements.
-   - For bodyweight movements, omit per-set `weight` unless the set itself has a specific external load that differs from `added_weight`.
+   - For bodyweight movements, per-set `weight` is required and represents only added or assisted load, not total system weight.
    - Keep failed reps, partial notes, or unusual details in `notes` if they do not fit the normal set shape.
 5. After entering the workout, check that every exercise ID exists in `data/exercises.json` and that the JSON is valid.
 
@@ -73,43 +77,42 @@ Workout Template
 }
 ```
 
-Exercise History Script
+Muscle Volume Trend Script
 
-Use `scripts/exercise_history.sh` to look up recent history for an exercise by
-ID or display name. It prints JSON and returns the 10 most recent matching
-exercise entries by default.
-
-```bash
-scripts/exercise_history.sh bench
-scripts/exercise_history.sh --limit 5 "db pullover"
-```
-
-Muscle Volume Script
-
-Use `scripts/muscle_volume.sh` to total completed working sets by muscle over a
-rolling timeline. The interactive mode asks for a period and whether secondary
-muscle volume should appear in its own column.
+`scripts/muscle_volume_trend.sh` is the single reporting script. Run it without
+flags and choose how many rolling weeks to compare in the console.
 
 ```bash
-scripts/muscle_volume.sh
+scripts/muscle_volume_trend.sh
 ```
 
-Each recorded set with more than zero reps counts once toward every primary
-muscle assigned to the exercise. Secondary sets use the same rule but are kept
-separate from primary volume.
+The report has one database-style row per muscle per week, with separate
+total-volume, working-set, and volume-per-set columns. Each muscle's current row
+also shows the latest total-volume change, latest volume-per-set change, compound
+weekly growth rate, and status. Numeric workload values include thousands
+separators for readability.
 
-Exercise Volume Graph Script
+Loaded movements use external weight × reps. Bodyweight movements use the
+workout's logged bodyweight plus per-set weight, so a
+bodyweight decline crunch at 190 lb uses 190 lb as its load. `load_multiplier`
+adjusts per-dumbbell or per-side entries; two 70 lb dumbbells therefore count as
+140 lb of external load.
 
-Use `scripts/exercise_volume_graph.sh` to select an exercise and display an
-ASCII graph of session volume. Each bar represents the sum of `weight × reps`
-for that workout, with set and rep totals shown alongside it.
+Volume is credited in full to every primary muscle assigned to an exercise.
+Loads from different movements and machines are not mechanically identical, so
+the report describes tracked workload rather than guaranteed strength or growth.
 
-```bash
-scripts/exercise_volume_graph.sh
-```
+`Weekly CAGR` is compound growth from the first continuous positive week through
+the current week; percentages are never arithmetically averaged. `UP` and `DOWN`
+describe a single comparison, while `TRENDING UP` and `TRENDING DOWN` require at
+least four continuous valid weeks. Opposing total-volume and volume-per-set
+directions are labeled `MIXED`.
 
-For bodyweight exercises, volume includes the workout's logged bodyweight plus
-per-set added weight. Sessions missing required load data are shown as `N/A`.
+Known volume is retained with an asterisk when some load data is missing. Any
+exercise with `volume_mode: "ignore"` is excluded completely from the report,
+including both volume and working sets. Farmer walks currently use this mode
+because their logged reps represent carry distance rather than repetitions
+comparable to a lift.
 
 Project Log
 

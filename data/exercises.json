@@ -10,6 +10,7 @@
   "pullup": {
     "name": "Pull-Up",
     "uses_bodyweight": true,
+    "volume_mode": "bodyweight_plus_external",
     "muscles": {
       "primary": ["lats"],
       "secondary": ["biceps", "mid_back"]
@@ -26,6 +27,7 @@
   "chest_supported_db_row": {
     "name": "Chest Supported DB Row",
     "uses_bodyweight": false,
+    "load_multiplier": 2,
     "muscles": {
       "primary": ["mid_back"],
       "secondary": ["lats", "rear_delts", "biceps"]
@@ -34,6 +36,7 @@
   "db_lateral_raise": {
     "name": "DB Lateral Raise",
     "uses_bodyweight": false,
+    "load_multiplier": 2,
     "muscles": {
       "primary": ["side_delts"],
       "secondary": ["upper_traps"]
@@ -58,6 +61,7 @@
   "standing_calf_raise": {
     "name": "Standing Calf Raise",
     "uses_bodyweight": true,
+    "volume_mode": "bodyweight_plus_external",
     "muscles": {
       "primary": ["calves"],
       "secondary": []
@@ -82,6 +86,7 @@
   "hanging_knee_raise": {
     "name": "Hanging Knee Raise",
     "uses_bodyweight": true,
+    "volume_mode": "ignore",
     "muscles": {
       "primary": ["abs"],
       "secondary": ["hip_flexors"]
@@ -130,14 +135,16 @@
   "dip": {
     "name": "Dip",
     "uses_bodyweight": true,
+    "volume_mode": "bodyweight_plus_external",
     "muscles": {
-      "primary": ["chest", "triceps"],
-      "secondary": ["front_delts"]
+      "primary": ["chest"],
+      "secondary": ["front_delts", "triceps"]
     }
   },
   "back_extension": {
     "name": "Back Extension",
     "uses_bodyweight": true,
+    "volume_mode": "bodyweight_plus_external",
     "muscles": {
       "primary": ["spinal_erectors"],
       "secondary": ["glutes", "hamstrings"]
@@ -162,9 +169,10 @@
   "hammer_strength_shoulder_press": {
     "name": "Hammer Strength Shoulder Press",
     "uses_bodyweight": false,
+    "load_multiplier": 2,
     "muscles": {
-      "primary": ["front_delts", "side_delts"],
-      "secondary": ["triceps"]
+      "primary": ["front_delts"],
+      "secondary": ["triceps", "side_delts"]
     }
   },
   "hamstring_curl": {
@@ -218,6 +226,7 @@
   "decline_ab_crunch": {
     "name": "Decline Ab Crunch",
     "uses_bodyweight": true,
+    "volume_mode": "bodyweight_plus_external",
     "muscles": {
       "primary": ["abs"],
       "secondary": ["hip_flexors"]
@@ -242,6 +251,7 @@
   "reverse_lunge": {
     "name": "Reverse Lunge",
     "uses_bodyweight": false,
+    "load_multiplier": 2,
     "muscles": {
       "primary": ["quads", "glutes"],
       "secondary": ["hamstrings"]
@@ -250,9 +260,10 @@
   "seated_db_shoulder_press": {
     "name": "Seated DB Shoulder Press",
     "uses_bodyweight": false,
+    "load_multiplier": 2,
     "muscles": {
-      "primary": ["front_delts", "side_delts"],
-      "secondary": ["triceps"]
+      "primary": ["front_delts"],
+      "secondary": ["triceps", "side_delts"]
     }
   },
   "close_grip_bench_press": {
@@ -290,6 +301,7 @@
   "y_raise": {
     "name": "Y Raise",
     "uses_bodyweight": false,
+    "load_multiplier": 2,
     "muscles": {
       "primary": ["rear_delts"],
       "secondary": ["upper_traps", "side_delts"]
@@ -298,6 +310,7 @@
   "heel_elevated_bulgarian_split_squat": {
     "name": "Heel-Elevated Bulgarian Split Squat",
     "uses_bodyweight": false,
+    "load_multiplier": 2,
     "muscles": {
       "primary": ["quads", "glutes"],
       "secondary": ["hamstrings"]
@@ -306,6 +319,7 @@
   "db_reverse_fly": {
     "name": "DB Reverse Fly",
     "uses_bodyweight": false,
+    "load_multiplier": 2,
     "muscles": {
       "primary": ["rear_delts"],
       "secondary": ["mid_back", "upper_traps"]
@@ -314,6 +328,7 @@
   "pushup": {
     "name": "Push-Up",
     "uses_bodyweight": true,
+    "volume_mode": "ignore",
     "muscles": {
       "primary": ["chest", "triceps"],
       "secondary": ["front_delts"]
@@ -331,13 +346,14 @@
     "name": "Smith Behind-the-Neck Press",
     "uses_bodyweight": false,
     "muscles": {
-      "primary": ["side_delts", "front_delts"],
-      "secondary": ["triceps", "upper_traps"]
+      "primary": ["front_delts"],
+      "secondary": ["triceps", "side_delts", "upper_traps"]
     }
   },
   "band_pushdown": {
     "name": "Band Pushdown",
     "uses_bodyweight": false,
+    "volume_mode": "ignore",
     "muscles": {
       "primary": ["triceps"],
       "secondary": []
@@ -379,13 +395,14 @@
     "name": "Military Press",
     "uses_bodyweight": false,
     "muscles": {
-      "primary": ["front_delts", "side_delts"],
-      "secondary": ["triceps", "upper_traps"]
+      "primary": ["front_delts"],
+      "secondary": ["triceps", "side_delts", "upper_traps"]
     }
   },
   "chinup": {
     "name": "Chin-Up",
     "uses_bodyweight": true,
+    "volume_mode": "bodyweight_plus_external",
     "muscles": {
       "primary": ["lats", "biceps"],
       "secondary": ["mid_back"]
@@ -394,6 +411,7 @@
   "hack_squat": {
     "name": "Hack Squat",
     "uses_bodyweight": false,
+    "load_multiplier": 2,
     "muscles": {
       "primary": ["quads"],
       "secondary": ["glutes", "hamstrings"]
@@ -402,6 +420,7 @@
   "db_romanian_deadlift": {
     "name": "DB Romanian Deadlift",
     "uses_bodyweight": false,
+    "load_multiplier": 2,
     "muscles": {
       "primary": ["hamstrings", "glutes"],
       "secondary": ["spinal_erectors"]
@@ -418,6 +437,7 @@
   "banded_face_pull": {
     "name": "Banded Face Pull",
     "uses_bodyweight": false,
+    "volume_mode": "ignore",
     "muscles": {
       "primary": ["rear_delts"],
       "secondary": ["upper_traps", "mid_back"]
@@ -434,6 +454,8 @@
   "farmer_walk": {
     "name": "Farmer Walk",
     "uses_bodyweight": false,
+    "volume_mode": "ignore",
+    "load_multiplier": 2,
     "muscles": {
       "primary": ["forearms", "upper_traps"],
       "secondary": ["abs", "glutes"]
@@ -445,6 +467,42 @@
     "muscles": {
       "primary": ["calves"],
       "secondary": []
+    }
+  },
+  "flat_db_bench": {
+    "name": "Flat DB Bench Press",
+    "uses_bodyweight": false,
+    "load_multiplier": 2,
+    "muscles": {
+      "primary": ["chest"],
+      "secondary": ["front_delts", "triceps"]
+    }
+  },
+  "two_db_bent_over_row": {
+    "name": "Two-DB Bent-Over Row",
+    "uses_bodyweight": false,
+    "load_multiplier": 2,
+    "muscles": {
+      "primary": ["mid_back"],
+      "secondary": ["lats", "rear_delts", "biceps", "spinal_erectors"]
+    }
+  },
+  "kroc_row": {
+    "name": "Kroc Row",
+    "uses_bodyweight": false,
+    "load_multiplier": 2,
+    "muscles": {
+      "primary": ["lats", "mid_back"],
+      "secondary": ["rear_delts", "biceps", "forearms"]
+    }
+  },
+  "hammer_curl": {
+    "name": "Hammer Curl",
+    "uses_bodyweight": false,
+    "load_multiplier": 2,
+    "muscles": {
+      "primary": ["biceps"],
+      "secondary": ["forearms"]
     }
   }
 }
