@@ -408,6 +408,31 @@
       "secondary": ["mid_back"]
     }
   },
+  "weighted_chinup": {
+    "name": "Weighted Chin-Up",
+    "uses_bodyweight": true,
+    "volume_mode": "bodyweight_plus_external",
+    "muscles": {
+      "primary": ["lats", "biceps"],
+      "secondary": ["mid_back"]
+    }
+  },
+  "upright_row": {
+    "name": "Upright Row",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["side_delts"],
+      "secondary": ["upper_traps", "biceps"]
+    }
+  },
+  "cable_crunch": {
+    "name": "Cable Crunch",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["abs"],
+      "secondary": ["hip_flexors"]
+    }
+  },
   "hack_squat": {
     "name": "Hack Squat",
     "uses_bodyweight": false,

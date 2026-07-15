@@ -1,0 +1,120 @@
+{
+  "date": "2026-07-15",
+  "session": 1,
+  "location": "home",
+  "bodyweight": 188.9,
+  "calories": null,
+  "protein": null,
+  "recovery": null,
+  "notes": "Heavy Progression Day (Home). Reverse lunges were listed without completed sets and are excluded.",
+  "exercises": [
+    {
+      "id": "incline_bench",
+      "sets": [
+        { "weight": 155, "reps": 10 },
+        { "weight": 155, "reps": 10 },
+        { "weight": 155, "reps": 10 }
+      ]
+    },
+    {
+      "id": "weighted_chinup",
+      "sets": [
+        { "weight": 15, "reps": 6 },
+        { "weight": 15, "reps": 6 },
+        { "weight": 15, "reps": 6 },
+        { "weight": 15, "reps": 6 },
+        { "weight": 0, "reps": 6, "notes": "Controlled" }
+      ]
+    },
+    {
+      "id": "romanian_deadlift",
+      "sets": [
+        { "weight": 185, "reps": 9 },
+        { "weight": 185, "reps": 9 },
+        { "weight": 185, "reps": 12 }
+      ]
+    },
+    {
+      "id": "barbell_row",
+      "notes": "Form reset: row toward nipples, not belly button. Weight still needs to be reduced to reinforce form.",
+      "sets": [
+        { "weight": 145, "reps": 9 },
+        { "weight": 145, "reps": 6, "notes": "Approximately 6 reps" },
+        { "weight": 135, "reps": 8, "notes": "Too heavy; continue resetting form and weight" }
+      ]
+    },
+    {
+      "id": "rack_pull",
+      "sets": [
+        { "weight": 275, "reps": 6 },
+        { "weight": 275, "reps": 6 },
+        { "weight": 275, "reps": 6 },
+        { "weight": 275, "reps": 10 }
+      ]
+    },
+    {
+      "id": "upright_row",
+      "notes": "Baseline; wide grip to nipples.",
+      "sets": [
+        { "weight": 95, "reps": 10 },
+        { "weight": 95, "reps": 10 },
+        { "weight": 95, "reps": 10 }
+      ]
+    },
+    {
+      "id": "jm_press",
+      "sets": [
+        { "weight": 95, "reps": 10 },
+        { "weight": 95, "reps": 10 },
+        { "weight": 95, "reps": 6 }
+      ]
+    },
+    {
+      "id": "barbell_curl",
+      "sets": [
+        { "weight": 95, "reps": 8 },
+        { "weight": 95, "reps": 7 },
+        { "weight": 95, "reps": 6 }
+      ]
+    },
+    {
+      "id": "ez_bar_french_press",
+      "sets": [
+        { "weight": 50, "reps": 12 },
+        { "weight": 50, "reps": 12 },
+        { "weight": 50, "reps": 12 }
+      ]
+    },
+    {
+      "id": "db_lateral_raise",
+      "sets": [
+        { "weight": 25, "reps": 8 },
+        { "weight": 25, "reps": 8 },
+        { "weight": 25, "reps": 7 },
+        { "weight": 25, "reps": 5 }
+      ]
+    },
+    {
+      "id": "cable_crunch",
+      "sets": [
+        { "weight": 35, "reps": 12 },
+        { "weight": 70, "reps": 15 }
+      ]
+    },
+    {
+      "id": "forearm_twist",
+      "sets": [
+        { "weight": 25, "reps": 2 },
+        { "weight": 25, "reps": 1 },
+        { "weight": 20, "reps": 1 },
+        { "weight": 20, "reps": 2 }
+      ]
+    },
+    {
+      "id": "banded_face_pull",
+      "sets": [
+        { "reps": 50 }
+      ]
+    }
+  ]
+}
