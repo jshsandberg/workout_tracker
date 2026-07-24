@@ -158,6 +158,14 @@
       "secondary": ["lats", "rear_delts", "biceps"]
     }
   },
+  "t_bar_row": {
+    "name": "T-Bar Row",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["mid_back"],
+      "secondary": ["lats", "rear_delts", "biceps"]
+    }
+  },
   "seated_calf_raise": {
     "name": "Seated Calf Raise",
     "uses_bodyweight": false,
@@ -408,15 +416,6 @@
       "secondary": ["mid_back"]
     }
   },
-  "weighted_chinup": {
-    "name": "Weighted Chin-Up",
-    "uses_bodyweight": true,
-    "volume_mode": "bodyweight_plus_external",
-    "muscles": {
-      "primary": ["lats", "biceps"],
-      "secondary": ["mid_back"]
-    }
-  },
   "upright_row": {
     "name": "Upright Row",
     "uses_bodyweight": false,
@@ -440,6 +439,14 @@
     "muscles": {
       "primary": ["quads"],
       "secondary": ["glutes", "hamstrings"]
+    }
+  },
+  "zercher_squat": {
+    "name": "Zercher Squat",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["quads", "glutes"],
+      "secondary": ["hamstrings", "spinal_erectors"]
     }
   },
   "db_romanian_deadlift": {

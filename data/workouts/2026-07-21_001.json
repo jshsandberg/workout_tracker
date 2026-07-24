@@ -1,0 +1,109 @@
+{
+  "date": "2026-07-21",
+  "session": 1,
+  "location": "planet_fitness",
+  "bodyweight": 190.1,
+  "calories": null,
+  "protein": null,
+  "recovery": null,
+  "notes": "Heavy Progression Day. Dumbbell loads are recorded per dumbbell; hack squat load is per side; Kroc row reps are per arm. The final DB lateral raise was a drop set.",
+  "exercises": [
+    {
+      "id": "flat_db_bench",
+      "sets": [
+        { "weight": 75, "reps": 10 },
+        { "weight": 75, "reps": 10 },
+        { "weight": 75, "reps": 8 }
+      ]
+    },
+    {
+      "id": "hack_squat",
+      "sets": [
+        { "weight": 45, "reps": 7 },
+        { "weight": 45, "reps": 7 },
+        { "weight": 45, "reps": 6 }
+      ]
+    },
+    {
+      "id": "pullup",
+      "sets": [
+        { "weight": 0, "reps": 8 },
+        { "weight": 0, "reps": 8 },
+        { "weight": 0, "reps": 5 },
+        { "weight": 0, "reps": 3 }
+      ]
+    },
+    {
+      "id": "hamstring_curl",
+      "sets": [
+        { "weight": 75, "reps": 12 },
+        { "weight": 75, "reps": 12 },
+        { "weight": 75, "reps": 12 }
+      ]
+    },
+    {
+      "id": "t_bar_machine_row",
+      "sets": [
+        { "weight": 110, "reps": 10 },
+        { "weight": 110, "reps": 10 },
+        { "weight": 110, "reps": 10 }
+      ]
+    },
+    {
+      "id": "dip",
+      "sets": [
+        { "weight": 25, "reps": 7 },
+        { "weight": 25, "reps": 7 },
+        { "weight": 25, "reps": 7 }
+      ]
+    },
+    {
+      "id": "db_lateral_raise",
+      "sets": [
+        { "weight": 25, "reps": 8 },
+        { "weight": 25, "reps": 8 },
+        { "weight": 25, "reps": 8 },
+        { "weight": 30, "reps": 3, "notes": "Drop set, first segment" },
+        { "weight": 20, "reps": 5, "notes": "Drop set, immediate second segment" }
+      ]
+    },
+    {
+      "id": "jefferson_curl",
+      "sets": [
+        { "weight": 90, "reps": 7 },
+        { "weight": 90, "reps": 7 },
+        { "weight": 90, "reps": 7 }
+      ]
+    },
+    {
+      "id": "hammer_curl",
+      "sets": [
+        { "weight": 35, "reps": 11 },
+        { "weight": 35, "reps": 11 },
+        { "weight": 35, "reps": 11 }
+      ]
+    },
+    {
+      "id": "triceps_preacher_pushdown",
+      "sets": [
+        { "weight": 62.5, "reps": 15 },
+        { "weight": 67.5, "reps": 15 },
+        { "weight": 75, "reps": 15 }
+      ]
+    },
+    {
+      "id": "kroc_row",
+      "sets": [
+        { "weight": 75, "reps": 20, "notes": "20 reps per arm" }
+      ]
+    },
+    {
+      "id": "decline_ab_crunch",
+      "sets": [
+        { "weight": 10, "reps": 10 },
+        { "weight": 10, "reps": 10 },
+        { "weight": 10, "reps": 10 }
+      ]
+    }
+  ]
+}

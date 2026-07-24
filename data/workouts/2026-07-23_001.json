@@ -1,0 +1,94 @@
+{
+  "date": "2026-07-23",
+  "session": 1,
+  "location": "home",
+  "bodyweight": 191.3,
+  "calories": null,
+  "protein": null,
+  "recovery": null,
+  "notes": "Full Body Specialization Day. Dumbbell loads are recorded per dumbbell.",
+  "exercises": [
+    {
+      "id": "chinup",
+      "sets": [
+        { "weight": 0, "reps": 10 },
+        { "weight": 0, "reps": 10 },
+        { "weight": 0, "reps": 8 },
+        { "weight": 0, "reps": 5 }
+      ]
+    },
+    {
+      "id": "t_bar_row",
+      "notes": "Performed with body English. Chest up, elbows out and back, with a hard squeeze of the shoulder blades.",
+      "sets": [
+        { "weight": 90, "reps": 8 },
+        { "weight": 90, "reps": 8 },
+        { "weight": 90, "reps": 8 }
+      ]
+    },
+    {
+      "id": "romanian_deadlift",
+      "sets": [
+        { "weight": 195, "reps": 8 },
+        { "weight": 195, "reps": 8 },
+        { "weight": 195, "reps": 8 }
+      ]
+    },
+    {
+      "id": "db_reverse_fly",
+      "sets": [
+        { "weight": 10, "reps": 15 },
+        { "weight": 10, "reps": 15 },
+        { "weight": 10, "reps": 15 },
+        { "weight": 10, "reps": 15 }
+      ]
+    },
+    {
+      "id": "barbell_shrug",
+      "notes": "Pause for 1–2 seconds at the top.",
+      "sets": [
+        { "weight": 155, "reps": 15 },
+        { "weight": 155, "reps": 15 },
+        { "weight": 155, "reps": 15 },
+        { "weight": 155, "reps": 15 }
+      ]
+    },
+    {
+      "id": "ez_bar_curl",
+      "sets": [
+        { "weight": 60, "reps": 10 },
+        { "weight": 60, "reps": 10 },
+        { "weight": 60, "reps": 10 },
+        { "weight": 60, "reps": 10 }
+      ]
+    },
+    {
+      "id": "jm_press",
+      "sets": [
+        { "weight": 95, "reps": 10 },
+        { "weight": 95, "reps": 10 },
+        { "weight": 95, "reps": 10 },
+        { "weight": 95, "reps": 6 }
+      ]
+    },
+    {
+      "id": "zercher_squat",
+      "notes": "Logged as each leg per workout notes.",
+      "sets": [
+        { "weight": 45, "reps": 8 },
+        { "weight": 45, "reps": 8 },
+        { "weight": 45, "reps": 8 },
+        { "weight": 95, "reps": 8 }
+      ]
+    },
+    {
+      "id": "forearm_twist",
+      "sets": [
+        { "weight": 25, "reps": 2 },
+        { "weight": 25, "reps": 2 },
+        { "weight": 25, "reps": 1 },
+        { "weight": 30, "reps": 1 }
+      ]
+    }
+  ]
+}

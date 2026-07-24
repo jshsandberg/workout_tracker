@@ -17,7 +17,7 @@
       ]
     },
     {
-      "id": "weighted_chinup",
+      "id": "chinup",
       "sets": [
         { "weight": 15, "reps": 6 },
         { "weight": 15, "reps": 6 },

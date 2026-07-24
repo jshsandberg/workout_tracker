@@ -6,7 +6,7 @@ Exercise Naming Rules
 
 Examples:
 - pullup = pronated; record added or assisted load as `weight` on every set
-- weighted_chinup = supinated
+- chinup = supinated; record added or assisted load as `weight` on every set
 - weighted_neutral_pullup = neutral grip
 - dip = standard dip; record added or assisted load as `weight` on every set
 - decline_ab_crunch = record added load as `weight` on every set; use `0` for bodyweight
