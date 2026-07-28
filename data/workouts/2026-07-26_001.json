@@ -1,0 +1,146 @@
+{
+  "date": "2026-07-26",
+  "session": 1,
+  "location": "planet_fitness",
+  "bodyweight": null,
+  "calories": null,
+  "protein": null,
+  "recovery": null,
+  "notes": "Volume Completion Day. Dumbbell loads are recorded per dumbbell. Untracked forearm curls and extensions were performed but intentionally omitted.",
+  "exercises": [
+    {
+      "id": "flat_db_bench",
+      "sets": [
+        { "weight": 75, "reps": 12 },
+        { "weight": 75, "reps": 8 }
+      ]
+    },
+    {
+      "id": "two_db_bent_over_row",
+      "sets": [
+        { "weight": 65, "reps": 10 },
+        { "weight": 65, "reps": 10 },
+        { "weight": 65, "reps": 10 }
+      ]
+    },
+    {
+      "id": "neutral_grip_lat_pulldown",
+      "sets": [
+        { "weight": 115, "reps": 12 },
+        { "weight": 115, "reps": 12 },
+        { "weight": 115, "reps": 12 }
+      ]
+    },
+    {
+      "id": "t_bar_machine_row",
+      "sets": [
+        { "weight": 110, "reps": 12 },
+        { "weight": 110, "reps": 12 }
+      ]
+    },
+    {
+      "id": "smith_machine_shrug",
+      "sets": [
+        { "weight": 185, "reps": 10 },
+        { "weight": 185, "reps": 10 },
+        { "weight": 185, "reps": 10 },
+        { "weight": 185, "reps": 10 },
+        { "weight": 135, "reps": 10, "notes": "Slower, controlled reps." }
+      ]
+    },
+    {
+      "id": "hamstring_curl",
+      "sets": [
+        { "weight": 80, "reps": 10 },
+        { "weight": 80, "reps": 10 },
+        { "weight": 80, "reps": 10 },
+        { "weight": 80, "reps": 10 }
+      ]
+    },
+    {
+      "id": "quad_extension",
+      "sets": [
+        { "weight": 160, "reps": 10 },
+        { "weight": 160, "reps": 10 },
+        { "weight": 180, "reps": 9 }
+      ]
+    },
+    {
+      "id": "back_extension",
+      "notes": "Four sets were listed despite the three-working-set heading, so all four are recorded.",
+      "sets": [
+        { "weight": 40, "reps": 12 },
+        { "weight": 40, "reps": 12 },
+        { "weight": 40, "reps": 12 },
+        { "weight": 40, "reps": 12 }
+      ]
+    },
+    {
+      "id": "db_lateral_raise",
+      "sets": [
+        { "weight": 25, "reps": 10 },
+        { "weight": 25, "reps": 10 },
+        { "weight": 25, "reps": 5, "notes": "Reported as approximately 5 reps." }
+      ]
+    },
+    {
+      "id": "reverse_pec_deck",
+      "sets": [
+        { "weight": 60, "reps": 12 },
+        { "weight": 60, "reps": 12 },
+        { "weight": 60, "reps": 12 },
+        { "weight": 60, "reps": 12 }
+      ]
+    },
+    {
+      "id": "incline_db_curl",
+      "notes": "Only the two completed sets with recorded reps are included.",
+      "sets": [
+        { "weight": 30, "reps": 10 },
+        { "weight": 30, "reps": 10 },
+        { "weight": 30, "reps": 5 }
+
+      ]
+    },
+    {
+      "id": "single_db_overhead_french_press",
+      "sets": [
+        { "weight": 60, "reps": 12 },
+        { "weight": 60, "reps": 12 },
+        { "weight": 60, "reps": 12 }
+      ]
+    },
+    {
+      "id": "triceps_preacher_pushdown",
+      "sets": [
+        { "weight": 100, "reps": 10 },
+        { "weight": 100, "reps": 10 }
+      ]
+    },
+    {
+      "id": "standing_calf_machine",
+      "sets": [
+        { "weight": 140, "reps": 12 },
+        { "weight": 140, "reps": 12 },
+        { "weight": 140, "reps": 10 }
+      ]
+    },
+    {
+      "id": "seated_calf_raise",
+      "sets": [
+        { "weight": 60, "reps": 12 },
+        { "weight": 60, "reps": 12 },
+        { "weight": 60, "reps": 12 }
+      ]
+    },
+    {
+      "id": "decline_ab_crunch",
+      "notes": "Stay at 10 lb until reaching 15 reps on all three sets, then increase to 20 lb and restart at 10 reps.",
+      "sets": [
+        { "weight": 10, "reps": 12 },
+        { "weight": 10, "reps": 10 },
+        { "weight": 10, "reps": 5 }
+      ]
+    }
+  ]
+}

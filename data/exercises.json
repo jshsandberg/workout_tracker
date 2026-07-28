@@ -412,8 +412,8 @@
     "uses_bodyweight": true,
     "volume_mode": "bodyweight_plus_external",
     "muscles": {
-      "primary": ["lats", "biceps"],
-      "secondary": ["mid_back"]
+      "primary": ["lats"],
+      "secondary": ["biceps", "mid_back"]
     }
   },
   "upright_row": {
@@ -535,6 +535,31 @@
     "muscles": {
       "primary": ["biceps"],
       "secondary": ["forearms"]
+    }
+  },
+  "neutral_grip_lat_pulldown": {
+    "name": "Neutral-Grip Lat Pulldown",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["lats"],
+      "secondary": ["biceps", "mid_back"]
+    }
+  },
+  "incline_db_curl": {
+    "name": "Incline DB Curl",
+    "uses_bodyweight": false,
+    "load_multiplier": 2,
+    "muscles": {
+      "primary": ["biceps"],
+      "secondary": ["forearms"]
+    }
+  },
+  "single_db_overhead_french_press": {
+    "name": "Single-DB Overhead French Press",
+    "uses_bodyweight": false,
+    "muscles": {
+      "primary": ["triceps"],
+      "secondary": ["front_delts", "forearms"]
     }
   }
 }

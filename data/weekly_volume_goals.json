@@ -1,0 +1,51 @@
+{
+  "start_date": "2026-07-22",
+  "end_date": "",
+  "muscles": {
+    "chest": {
+      "goal": 8
+    },
+    "quads": {
+      "goal": 8
+    },
+    "glutes": {
+      "goal": 10
+    },
+    "hamstrings": {
+      "goal": 10
+    },
+    "lats": {
+      "goal": 12
+    },
+    "mid_back": {
+      "goal": 12
+    },
+    "upper_traps": {
+      "goal": 10
+    },
+    "rear_delts": {
+      "goal": 8
+    },
+    "side_delts": {
+      "goal": 8
+    },
+    "biceps": {
+      "goal": 10
+    },
+    "triceps": {
+      "goal": 10
+    },
+    "calves": {
+      "goal": 10
+    },
+    "forearms": {
+      "goal": 10
+    },
+    "abs": {
+      "goal": 6
+    },
+    "neck": {
+      "goal": 3
+    }
+  }
+}
